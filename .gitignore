@@ -1,0 +1,22 @@
+/MZJ-IAM
+README_en.md
+testing_en.md
+report_en.md
+
+# Build artifacts
+deployment.zip
+
+# Test results
+results/results.json
+
+# Configuration (contains environment-specific URLs)
+config.json
+
+# Terraform
+terraform.tfvars
+terraform/.terraform/
+*.tfstate*
+
+# Python
+__pycache__/
+.pytest_cache/

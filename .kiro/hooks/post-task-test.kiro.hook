@@ -1,0 +1,13 @@
+{
+  "enabled": true,
+  "name": "Post-Task Test Runner",
+  "description": "Runs the test runner script after each task execution completes. This is a convenience hook — the test runner may fail if infrastructure isn't deployed yet.",
+  "version": "1",
+  "when": {
+    "type": "postTaskExecution"
+  },
+  "then": {
+    "type": "runCommand",
+    "command": "python3 scripts/test_runner.py"
+  }
+}
