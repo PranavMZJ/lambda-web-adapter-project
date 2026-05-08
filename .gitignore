@@ -2,6 +2,9 @@
 README_en.md
 testing_en.md
 
+# macOS
+.DS_Store
+
 # Build artifacts
 deployment.zip
 
